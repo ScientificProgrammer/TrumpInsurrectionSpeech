@@ -11,10 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library(here)
 ```
 
-# What does this document contain?
-This document contains an analysis of former President Donald J. Trump's speech to his supporters on January 6, 2021, prior to them attacking the United States (US) Capitol building.
+**Gitgub Repo**: [ScientificProgrammer/TrumpInsurrectionSpeech](https://github.com/ScientificProgrammer/TrumpInsurrectionSpeech.git)
 
-# Background
+
+## Background
 President Trump lost the 2020 US Presidential election to Joe Biden. This election was held November 3, 2020. Trump and Biden were members of the Republican and Democratic parties, respectively. Even though Trump's electoral loss was clear a few days after the election, Trump refused to acknowledge that Biden had won.
 
 Trump filed at least 60 lawsuits in multiple states, and 59 of them were dismissed. Despite no evidence, Trump continued to assert that he had actually won the election, and Democrats were committing fraud on a massive scale to steal the election from him.
@@ -22,4 +22,10 @@ Trump filed at least 60 lawsuits in multiple states, and 59 of them were dismiss
 On January 6, 2021, the US Congress was scheduled to certify Joe Biden as the official winner of the 2020 Presidential election. On the same date, a large number of Trump's supporters were present in Washington, DC. President Trump gave a speech to his followers, wherein he urged them to march to the US Capitol to "*stop the steal*." Later that day, Trump's supporters attacked the US Capitol building, forcing their way inside and disrupting the process of certifying Joe Biden as the US President. During this insurrectionist attack, 5 US citizens were killed and 140 were injured.
 
 The US House of Representatives impeached outgoing President Trump for inciting the Jan 6, 2021 riot, which made Trump the first US President to ever be impeached twice. The US Senate started the trial of President Trump on Monday, February 8, 2021. A key element of the trial was whether or not Trump's January 6, 2021 speech to his supporters was a clear request to incite the violence that occurred on that day.
+
+## Materials and Methods
+
+1. A transcript of Trump's Jan 6, 2021 Capitol speech was taken from <https://www.usnews.com/news/politics/articles/2021-01-13/transcript-of-trumps-speech-at-rally-before-us-capitol-riot>.
+
+1. The plain text version of the transcript is available at 
 
