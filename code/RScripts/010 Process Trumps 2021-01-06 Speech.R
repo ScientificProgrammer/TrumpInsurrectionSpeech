@@ -44,10 +44,15 @@ speechSummary2 <- speechSummary1 %>%
 
 ggplot2::ggplot(speechSummary2, aes(x = sliceValueforN:1, y = freq_v)) +
   geom_col(aes(fill = terms), color = "black", show.legend = FALSE) +
+  scale_x_continuous(
+    breaks = 1:sliceValueforN,
+    labels = sliceValueforN:1
+  ) +
   scale_fill_manual(values = rainbow(sliceValueforN)) +
   geom_label(aes(label = terms), show.legend = FALSE, size = 5) +
   labs(
     title = "Word Frequencies from Trump's\nJan 6, 2021 Capitol Speech",
+    subtitle = "Transcript obtained at\nhttps://www.usnews.com/news/politics/articles/2021-01-13/transcript-of-trumps-speech-at-rally-before-us-capitol-riot",
     x = "Word Frequency Rank",
     y = "Number of Word Occurences"
   ) +
@@ -55,6 +60,7 @@ ggplot2::ggplot(speechSummary2, aes(x = sliceValueforN:1, y = freq_v)) +
   theme(
     plot.margin = margin(20, 20, 20, 20),
     plot.title = element_text(size = 24, hjust = 0.5),
+    plot.subtitle = element_text(size = 10),
     axis.title = element_text(size = 20),
     axis.title.x = element_text(margin = margin(20, 0, 0, 0)),
     axis.title.y = element_text(margin = margin(0, 20, 0, 0)),
