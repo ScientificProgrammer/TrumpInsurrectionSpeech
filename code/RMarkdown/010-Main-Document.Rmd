@@ -1,7 +1,7 @@
 ---
 title: "Analysis of Trump's Jan 6, 2021 Speech Before the Attack on the US Capitol"
-author: "thaufas"
-date: "`r Sys.time()`"
+author: "Eric Milgram, PhD"
+date: "Feb 12, 2021"
 output: html_document
 ---
 
@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(here)
 ```
+
+<div style="margin-bottom: 1em;"><strong>Last Updated:</strong> <em>`r Sys.time()`</em></div>
 
 **Gitgub Repo**: [ScientificProgrammer/TrumpInsurrectionSpeech](https://github.com/ScientificProgrammer/TrumpInsurrectionSpeech.git)
 
@@ -27,5 +29,5 @@ The US House of Representatives impeached outgoing President Trump for inciting 
 
 1. A transcript of Trump's Jan 6, 2021 Capitol speech was taken from <https://www.usnews.com/news/politics/articles/2021-01-13/transcript-of-trumps-speech-at-rally-before-us-capitol-riot>.
 
-1. The plain text version of the transcript is available at 
+1. The plain text version of the transcript of Trump's speech that was used for this analysis is available [here in this repo](https://github.com/ScientificProgrammer/TrumpInsurrectionSpeech/blob/main/data/Transcript%20of%20Trumps%20Jan%206%202021%20Speech.txt).
 
